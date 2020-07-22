@@ -1,4 +1,4 @@
-/*
+package View;/*
 Stuart Reges and Marty Stepp
 February 24, 2007
 Changes by Tom Bylander in 2010 (no anti-alias, repaint on sleep)
