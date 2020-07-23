@@ -4,7 +4,7 @@ import java.awt.*;
 public class Box extends Panel {
 	private int width = 100;
 	private int height = 40;
-	private int x = 100;
+	private int x = 300;
 	private int y = 300;
 	private Label lb = new Label("First Label");  
 	private Color cl = Color.BLUE;
@@ -14,6 +14,7 @@ public class Box extends Panel {
 		lb.setSize(width,height);
 		lb.setAlignment(Label.CENTER);
 		lb.setFont(myFont);
+		lb.setForeground(Color.WHITE);
 		add(lb);
 	    setSize(width, height);
 	    setLocation(x, y);    

@@ -6,7 +6,7 @@ import Model.Box;
 
 public class Background extends Frame implements WindowListener {	
 	public Background(){                              // init background
-		setSize(500, 450);
+		setSize(500, 400);
 		setLayout(null);
 		setVisible(true);
 		addWindowListener(this);
