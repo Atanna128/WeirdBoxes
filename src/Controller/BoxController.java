@@ -33,14 +33,12 @@ public class BoxController {
 			box.setLocation(xLocation, yLocation);
 			box.changeColor(colors[chosenColor]);
 			bg.addBox(box);
-			
 			try {
-				TimeUnit.SECONDS.sleep(1);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			     Thread.sleep(500);
+			   } catch (InterruptedException e) {}
 		}
+		for(int j = 0; j < loop_time; j++) 	
+			System.out.println(j + "  -  " + "(" + this.xArr.get(j) +", " + this.yArr.get(j)+")");
 	}
 	
 	
